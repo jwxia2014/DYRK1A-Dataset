@@ -6,20 +6,8 @@ DYRK1A-Dataset is the data set collected and curated for Machine Learning of DYR
 
 Dataset Description
 -----------------------------------
-1. The source 
-
- 
-
-Implementation
------------------------------------
-* Source
-
-  ChEMBL29 database (https://www.ebi.ac.uk/chembl/)  
-  
-* Curation
-
-
-1161 compounds with homo sapiens DYRK1A activity values (IC50) were downloaded from the ChEMBL29 database. RDKit (version 2019.09.3) and MolVS (version 0.1.1) were used to remove the salt components, neutralize the compounds and standardize SMILES representations. Compounds with too many rotatable bonds (>20) and too high molecular weight (>600) were removed. Only the compounds with clear IC50 values were extracted and the average value was used for  with more than one IC50 values. Compounds with biological activity values below 1 μM were defined as active compounds and others as inactive compounds. 
+1. DYRK1A_IC50_all.csv
+   This file contains the DYRK1A molecules that were collected from ChEMBL29 database (https://www.ebi.ac.uk/chembl/) and curated by salt stripping, neutralization, SMILES standardization, the removal of compounds with too many rotatable bonds (>20) and too high molecular weight (>600) as well as the averaging of different IC50 values for the same compound. Please note the compounds with average IC50 below 1 μM were defined as active compounds and the others were defined as inactive compounds. 
 ![image](https://user-images.githubusercontent.com/50791273/232232990-094df7df-d6a2-4047-aac7-57a5b96c3e8d.png)
 
 
