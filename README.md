@@ -19,22 +19,10 @@ Implementation
 * Curation
 
 
-2. 1161 compounds with homo sapiens DYRK1A activity values (IC50) were downloaded from the ChEMBL29 database ((https://www.ebi.ac.uk/chembl/). . RDKit (version 2019.09.3) and MolVS (version 0.1.1) were used to remove the salt components, neutralize the compounds and standardize SMILES representations[1]. Compounds with too high number of rotatable bonds (>20) and too large molecular weights (M.W>600) were removed according to the drug-likeness principle. Only the compounds with clear IC50 values were extracted and the average value was used for every compound with more than one IC50 values. Compounds with biological activity values below 1 μM were defined as active compounds and others as inactive compounds. Principal component analysis[2-4] was performed on the dataset according to the method of Shan Li et al, and the structural diversity of molecules in the dataset was analyzed, and the Tanimoto coefficient (Tc) between each pair of compounds was calculated based on the Morgan2 fingerprint
+1161 compounds with homo sapiens DYRK1A activity values (IC50) were downloaded from the ChEMBL29 database. RDKit (version 2019.09.3) and MolVS (version 0.1.1) were used to remove the salt components, neutralize the compounds and standardize SMILES representations. Compounds with too many rotatable bonds (>20) and too high molecular weight (>600) were removed. Only the compounds with clear IC50 values were extracted and the average value was used for  with more than one IC50 values. Compounds with biological activity values below 1 μM were defined as active compounds and others as inactive compounds. 
+![image](https://user-images.githubusercontent.com/50791273/232232990-094df7df-d6a2-4047-aac7-57a5b96c3e8d.png)
 
-https://github.com/jwxia2014/HDAC3i-Finder . For model reproduction, the original data sets used for modeling are also provided in the folder named 'data_for_modeling'.
-    $ conda create -n HDAC3 python==3.7 (HDAC3 is an environment set by users)
-  
-    $ conda activate HDAC3
-  
-    $ conda install pandas==0.25.1
-  
-    $ conda install numpy==1.16.5
-  
-    $ conda install joblib==0.13.2
-  
-    $ conda install scikit-learn==0.21.3
-  
-    $ conda install rdkit==2019.09.3
+
   
 3. Download 'xgboost-1.0.2-cp37-cp37m-win_amd64.whl' from https://www.lfd.uci.edu/~gohlke/pythonlibs/#xgboost
 4. Create a new directory, e.g. D:/HDAC3i-Finder and put the file 'xgboost-1.0.2-cp37-cp37m-win_amd64.whl' in D:/HDAC3i-Finder  
