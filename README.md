@@ -6,14 +6,17 @@ DYRK1A-Dataset is the data set collected and curated for Machine Learning of DYR
 
 Dataset Description
 -----------------------------------
-1. DYRK1A_IC50_all.csv
+* DYRK1A_IC50_all.csv
 
    This file contains the DYRK1A molecules that were collected from ChEMBL29 database (https://www.ebi.ac.uk/chembl/) and curated by salt stripping, neutralization, SMILES standardization, the removal of compounds with too many rotatable bonds (>20) and too high molecular weight (>600) as well as the averaging of different IC50 values for the same compound. Please note the compounds with average IC50 below 1 μM were defined as active compounds and the others were defined as inactive compounds. 
 ![image](https://user-images.githubusercontent.com/50791273/232232990-094df7df-d6a2-4047-aac7-57a5b96c3e8d.png)
 
 
   
-3. Download 'xgboost-1.0.2-cp37-cp37m-win_amd64.whl' from https://www.lfd.uci.edu/~gohlke/pythonlibs/#xgboost
+* DYRK1A_IC50_train.csv and DYRK1A_IC50_test.csv
+
+   These two files contain the compounds in the training set (742 compounds) and those in the test set (185 compounds) by random partion.  
+
 4. Create a new directory, e.g. D:/HDAC3i-Finder and put the file 'xgboost-1.0.2-cp37-cp37m-win_amd64.whl' in D:/HDAC3i-Finder  
 5. Run 'Anaconda Prompt' and run the following commands:
 
