@@ -17,39 +17,13 @@ Dataset Description
 
    These two files contain the compounds in the training set (742 compounds) and those in the test set (185 compounds) by random partion.  
 
-4. Create a new directory, e.g. D:/HDAC3i-Finder and put the file 'xgboost-1.0.2-cp37-cp37m-win_amd64.whl' in D:/HDAC3i-Finder  
-5. Run 'Anaconda Prompt' and run the following commands:
-
-   $ conda activate HDAC3
+* MUBD_DYRK1A.csv  
    
-   $ pip install D:/HDAC3i-Finder/xgboost-1.0.2-cp37-cp37m-win_amd64.whl
-   
-   $ pip list | findstr xgboost (if 'xgboost 1.0.2' returns, xgboost is installed successfully) 
+   This file contains MUBD-DYRK1A (Maximal Biased Benchmarking Datasets for DYRK1A), which could be used for evalating virtual screening strategies for DYRK1A inhibitors.  
 
-* Run HDAC3i-Finder
-1. download HDAC3i-Finder.py and put it in a directory, e.g. D:/HDAC3i-Finder  
-2. Run 'Anaconda Prompt' and run the following commands:
-
-    $ conda activate HDAC3
-  
-    $ python D:/HDAC3i-Finder/HDAC3i-Finder.py (The GUI application will be shown)
-
-Usage
------------------------------------
-* Single Compound mode
-
-  This mode is used for predicting whether a single compound is active for HDAC3 or not.  
-  1. click the 'load a model' to load the 'XGBoost_Morgan2.m' model and paste SMILES of a compound to predict. 
-  2. click the 'Classify' button and the activity class of the compound is shown in the textbox along with the probability of the activity class. 
-
-* A Set of Compounds mode (virtual screening)
-
-  This mode is used for virtual screening of a large chemical library.  
-  1. click the 'load a model' to load the 'XGBoost_Morgan2.m' model and provide a csv file with 'IDNUMBER' and 'SMILES' of the compounds to predict. 
-  2. click the 'Classify' button and a csv file that contains activity classes with probability values of "being ACITVE" in a descending order returns.  
-
+ 
 References
 -----------------------------------
-If you find HDAC3i-Finder useful, please cite: 
+If you find the data sets useful, please cite: 
 
-Li, S., Ding Y., Chen, M., Chen Y., Kirchmair J., Zhu Z., Wu, S., Xia, J.*, HDAC3i-Finder: A Machine Learning-based Computational Tool to Screen for HDAC3 Inhibitors. Mol. Inf.,2021, 40(3):e2000105. https://onlinelibrary.wiley.com/doi/10.1002/minf.202000105 (Top Cited Article 2020-2021 of Mol. Inf.)
+Si X.#, Wang Y.#, Qiu N.#, Qian C., Yao M., Wang X.S., Wu S., Wang H.*, Zhang X.*, Xia J.* et al. Discovery of triazolothiazoles as Novel DYRK1A inhibitors for Alzheimer's disease: virtual screening and biological evaluation. Bioorganic Chemistry,2023. ###
