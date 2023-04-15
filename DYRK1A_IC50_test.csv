@@ -1,4 +1,4 @@
-ID,SMILES,act_mean,Type
+ID,SMILES,act_mean(nM),Type(active or not)
 CHEMBL1315944,COc1ccc(-c2ccc3ncnc(NCc4cccs4)c3c2)cc1,3152.0,0
 CHEMBL1354134,c1nc(NCC2CCCC2)c2cc(-c3ccc4c(c3)OCO4)ccc2n1,76.0,1
 CHEMBL1374544,CN(Cc1ccco1)c1ncnc2ccc(-c3ccc4c(c3)OCO4)cc12,98.0,1
