@@ -21,7 +21,7 @@ Dataset Description
 * MUBD_DYRK1A.csv  
    
    This file contains MUBD-DYRK1A (Maximal Biased Benchmarking Datasets for DYRK1A), which could be used for evalating virtual screening strategies for DYRK1A inhibitors.  
-   ![image](https://user-images.githubusercontent.com/50791273/232287966-323de923-8d92-4298-8c12-1d6a9e51104f.png)
+   ![image](https://user-images.githubusercontent.com/50791273/232288008-aacc6f3c-6a67-449a-81b6-474b732896ba.png)
 
  
 References
