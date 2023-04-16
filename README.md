@@ -26,4 +26,4 @@ References
 -----------------------------------
 If you find the data sets useful, please cite: 
 
-Si X.#, Wang Y.#, Qiu N.#, Qian C., Yao M., Wang X.S., Wu S., Wang H.*, Zhang X.*, Xia J.* et al. Discovery of triazolothiazoles as Novel DYRK1A inhibitors for Alzheimer's disease: virtual screening and biological evaluation. Bioorganic Chemistry,2023. ###
+Si X.#, Wang Y.#, Qiu N.#, Qian C., Yao M., Wang X.S., Wu S., Wang H.*, Zhang X.*, Xia J.* Discovery of triazolothiazoles as Novel DYRK1A inhibitors for Alzheimer's disease: virtual screening and biological evaluation. Bioorganic Chemistry,2023. ###
