@@ -25,8 +25,4 @@ Dataset Description
 
 
  
-References
------------------------------------
-If you find the data sets useful, please cite: 
 
-Si X.#, Wang Y.#, Qiu N.#, Qian C., Yao M., Wu S., Wang H.,* Zhang X.,* Xia J.*, Zhang L. Machine learning- and structure-based discovery of novel DYRK1A inhibitors for Alzheimer's disease. Bioorganic Chemistry,2023. submitted.
